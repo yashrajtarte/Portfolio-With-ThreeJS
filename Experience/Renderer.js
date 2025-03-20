@@ -17,7 +17,6 @@ export default class Renderer {
       canvas: this.canvas,
       antialias: true,
     });
-
     this.renderer.physicallyCorrectLights = true;
     this.renderer.outputEncoding = THREE.sRGBEncoding;
     this.renderer.toneMapping = THREE.CineonToneMapping;

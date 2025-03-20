@@ -44,6 +44,7 @@ svg{
   --color-pink-last: var(--color-pink-light);
   --color-green: var(--color-green-light);
   --color-blue: var(--color-blue-light);
+  --color-toggle-background: var(--color-pink-light);
 }
 
 .dark-theme{
@@ -53,6 +54,7 @@ svg{
   --color-pink-last: var(--color-text-light);
   --color-green: var(--color-text-dark);
   --color-blue: var(--color-text-dark);
+  --color-toggle-background:  var(--color-blue-light);
 }
 
 /* Experience --------------------------------------------- */
@@ -218,7 +220,7 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-pink);
+  background-color: var (--color-toggle-background);
   border-radius: 999px;
   margin: 0px 16px;
   border: none;
@@ -231,7 +233,7 @@ svg{
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  background-color: var(--color-background);
+  background-color: var(--color-toggle-background);
   transition: all 0.2s ease-in-out;
 }
 

@@ -66,4 +66,4 @@ To run this project locally, follow these steps:
 
 ## Acknowledgements
 
-This portfolio was inspired by the modern design and implementation techniques demonstrated by **[Bokoko33's award-winning website](https://bokoko33.me/)**. The original creator asks to please not use this _exact_ idea, but feel free to use it as a starting point/inspiration.
+This portfolio was inspired by the modern design and implementation techniques demonstrated by **Bokoko33's award-winning website**. The original creator asks to please not use this _exact_ idea, but feel free to use it as a starting point/inspiration.

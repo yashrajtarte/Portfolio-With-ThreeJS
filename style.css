@@ -254,7 +254,7 @@ svg{
 .section{
   position: relative;
   width: 50%;
-  padding: 1000px 4%;
+  padding: 300px 4%;
   margin: 0;
   background-color: var(--color-background);
   overflow: hidden;
@@ -263,7 +263,7 @@ svg{
 .sectionLast{
   position: relative;
   width: 50%;
-  padding: 1000px 4%;
+  padding: 300px 4%;
   margin: 0;
   background-color: var(--color-pink-last);
   overflow: hidden;
@@ -595,3 +595,19 @@ svg{
   letter-spacing: 1px; /* Adds spacing between letters */
 }
 
+/* Full width buttons for work section */
+.work-btn {
+  width: 100% !important;
+  margin: 5% 0 !important;
+  margin-left: 0 !important;
+  background-color: var(--color-blue);
+}
+
+.btnLast {
+  background-color: var(--color-background);
+  color: var(--color-pink);
+}
+.btnLast:hover {
+  background-color: var(--color-pink);
+  color: var(--color-background);
+}

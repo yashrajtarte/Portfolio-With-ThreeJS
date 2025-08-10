@@ -462,6 +462,48 @@ svg{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+/* Social Icons */
+.social-icons-container {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+  z-index: 1;
+}
+
+.social-icon {
+  color: var(--color-text);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--color-text);
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+  background-color: var(--color-background);
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 968px) {
+  .social-icons-container {
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
 
 /* Other colors override */
 

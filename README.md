@@ -19,7 +19,7 @@ Check out the live site: [yashrajtarte.vercel.app](https://yashrajtarte.vercel.a
 - **Three.js**: JavaScript library for creating 3D graphics in the browser.
 - **Framer Motion**: Library for animations and transitions.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Blender**: Free and open-source 3D creation suite used for modeling and animating 3D assets. [Learn more](https://www.blender.org/)
+- **Blender**: Free and open-source 3D creation suite used for modeling and animating 3D assets. [Learn more]([https://www.blender.org/](https://docs.blender.org/manual/en/latest/))
 
 ## Desktop Mockup Screenshot
 ![Screenshot 2025-01-12 013542](https://github.com/user-attachments/assets/ba9c1059-bad5-40ed-8653-77499562ebcd)

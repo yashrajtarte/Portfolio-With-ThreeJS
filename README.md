@@ -1,4 +1,4 @@
-# My VibeLab
+# My VibeLab v1.0.1
 
 This project is a personal portfolio website that showcases my work and skills as a software developer. Built with modern web technologies, it features interactive 3D elements to create an engaging user experience.
 

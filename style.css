@@ -45,8 +45,9 @@ svg{
   --color-green: var(--color-green-light);
   --color-blue: var(--color-blue-light);
   --color-toggle-background: var(--color-pink-light);
+  --color-last-button: var(--color-background-light);
+  --color-pink-last-button: var(--color-pink-light);
 }
-
 .dark-theme{
   --color-text: var(--color-text-dark);
   --color-background: var(--color-background-dark);
@@ -55,6 +56,8 @@ svg{
   --color-green: var(--color-text-dark);
   --color-blue: var(--color-text-dark);
   --color-toggle-background:  var(--color-blue-light);
+  --color-last-button: var(--color-background-light);
+  --color-pink-last-button: var(--color-text-light);
 }
 
 /* Experience --------------------------------------------- */
@@ -646,10 +649,10 @@ svg{
 }
 
 .btnLast {
-  background-color: var(--color-background);
-  color: var(--color-pink);
+  background-color: var(--color-last-button);
+  color: var(--color-pink-last);
 }
 .btnLast:hover {
-  background-color: var(--color-pink);
-  color: var(--color-background);
+  background-color: var(--color-pink-last-button);
+  color: var(--color-background-light);
 }
